@@ -89,4 +89,5 @@ Some third-party plugins that we used to build this template. Please check their
 * **Bootstrap v4.5**: https://getbootstrap.com/docs/4.5/getting-started/introduction/
 * **Jquery**: https://jquery.com/download/
 * **Google Fonts**: http://fonts.google.com/
-* **Slick**: https://kenwheeler.github.io/slick/
+* **Font Awesome Free**: https://fontawesome.com/
+* **Icofont 1.0.1**: https://icofont.com/
