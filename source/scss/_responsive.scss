@@ -1,0 +1,392 @@
+/*-------------------------------
+ RESPONSIVE LAYOUT
+---------------------------------*/
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/*Large devices (desktops, 992px and up)*/
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media only screen and (max-width: 991.98px) {}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  /*---------------
+     NAVIGATION
+    ----------------*/
+  .navbar-toggler {
+    background: #fff;
+    border-radius: 0px;
+  }
+
+  .navbar-toggler-icon {
+    height: auto;
+    padding: 5px 0px;
+    width: 1rem;
+  }
+
+  .trans-navigation {
+    background: #232323;
+  }
+
+  .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
+    margin-bottom: 10px;
+  }
+
+  /*----------------------
+     SECTION HEAINDG
+    -----------------------*/
+  .section-heading {
+    width: 100%;
+  }
+
+
+  /*----------------
+     INTRO
+    ----------------*/
+  #intro {
+    padding-bottom: 90px;
+  }
+
+  /*----------------
+     ABOUT
+    ----------------*/
+  .about-list li {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .about-bg-img {
+    width: 35%;
+    height: 100%;
+    max-height: 600px;
+  }
+
+  .about-content {
+    margin-top: 60px;
+  }
+
+  #about {
+    padding-bottom: 40px;
+  }
+
+  /*--------------
+     COUNTER
+    ----------------*/
+  .counter-stat {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /*--------------
+     BLOG
+    ----------------*/
+  .blog-text {
+    padding: 0px;
+    margin-top: 10px;
+  }
+
+  .blog-tex h5 {
+    font-size: 15px;
+  }
+
+  .blog-text p {
+    font-size: 14px;
+  }
+
+  .pricing-block {
+    margin-bottom: 30px;
+  }
+
+  /*--------------
+     FOOTER
+    ----------------*/
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+
+
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+  /*---------------
+     NAVIGATION
+    ----------------*/
+  .navbar-toggler {
+    background: #fff;
+    border-radius: 0px;
+  }
+
+  .navbar-toggler-icon {
+    height: auto;
+    padding: 5px 0px;
+    width: 1rem;
+  }
+
+  .trans-navigation {
+    background: #232323;
+  }
+
+  .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
+    margin-bottom: 10px;
+  }
+
+  /*----------------------
+     SECTION HEAINDG
+    -----------------------*/
+  .section-heading {
+    width: 100%;
+  }
+
+  /*----------------
+     INTRO
+    ----------------*/
+  #intro {
+    padding-bottom: 90px;
+  }
+
+  /*----------------
+     ABOUT
+    ----------------*/
+  .about-content {
+    margin-top: 60px;
+  }
+
+  #about {
+    padding-bottom: 40px;
+  }
+
+  /*-------------------
+     TESTIMONIAL
+    -------------------*/
+  .testimonial-content {
+    padding: 10px;
+  }
+
+  /*--------------
+     COUNTER
+    ----------------*/
+
+  .counter-stat {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /*--------------
+     BLOG
+    ----------------*/
+  .blog-block {
+    margin-bottom: 30px;
+  }
+
+  .blog-text {
+    padding: 0px;
+    margin-top: 10px;
+  }
+
+  .blog-block:hover {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  .blog-text h5 {
+    font-size: 16px;
+  }
+
+  .blog-text p {
+    font-size: 14px;
+  }
+
+  .intro-box {
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  /*--------------
+     CLIENT
+    --------------*/
+  .client-img {
+    text-align: center;
+  }
+
+  /*--------------
+     FOOTER
+    ----------------*/
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+
+  .pricing-block {
+    margin-bottom: 30px;
+  }
+
+
+  .img-block img {
+    width: 130px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+  /*---------------
+     NAVIGATION
+    ----------------*/
+  .navbar-toggler {
+    background: #fff;
+    border-radius: 0px;
+  }
+
+  .navbar-toggler-icon {
+    height: auto;
+    padding: 5px 0px;
+    width: 1rem;
+  }
+
+  .trans-navigation {
+    background: #232323;
+    padding: 20px 15px;
+  }
+
+  .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
+    margin-bottom: 10px;
+  }
+
+  /*----------------------
+     SECTION HEAINDG
+    -----------------------*/
+  #intro .section-heading,
+  .section-heading {
+    width: 100%;
+  }
+
+  #intro .section-heading p {
+    font-size: 16px;
+    line-height: 28px;
+
+  }
+
+  .section-title {
+    font-size: 26px;
+    line-height: 36px;
+
+  }
+
+  h1 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
+  /*--------------------
+     BANNER
+    -----------------*/
+  .banner-content .banner-title {
+    line-height: 37px;
+  }
+
+  .banner-content p {
+    font-size: 16px;
+  }
+
+  /*----------------
+     INTRO
+    ----------------*/
+  #intro {
+    padding-bottom: 90px;
+  }
+
+  /*----------------
+     ABOUT
+    ----------------*/
+  .about-list li {
+    float: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .about-bg-img {
+    width: 35%;
+    height: 100%;
+    max-height: 600px;
+  }
+
+  .about-content {
+    margin-top: 60px;
+  }
+
+  #about {
+    padding-bottom: 40px;
+  }
+
+
+  .img-block img {
+    width: 130px;
+  }
+
+  .service-block {
+    margin-bottom: 20px;
+  }
+
+  /*-------------------
+     TESTIMONIAL
+    -------------------*/
+  .testimonial-content {
+    padding: 10px;
+  }
+
+  /*--------------
+     COUNTER
+    ----------------*/
+
+  .counter-stat {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  /*--------------
+     BLOG
+    ----------------*/
+  .blog-block {
+    margin-bottom: 30px;
+  }
+
+  .blog-text {
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .blog-tex h5 {
+    font-size: 15px;
+  }
+
+  .blog-text p {
+    font-size: 14px;
+  }
+
+  /*--------------
+     CLIENT
+    --------------*/
+  .client-img {
+    text-align: center;
+  }
+
+  /*--------------
+     FOOTER
+    ----------------*/
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+
+  .pricing-block {
+    margin-bottom: 30px;
+  }
+}

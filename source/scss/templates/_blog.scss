@@ -1,0 +1,144 @@
+/*--------------------------
+ BLOG SECTION AREA
+----------------------*/
+#blog {
+  padding-bottom: 55px;
+}
+
+.blog-block {
+  overflow: hidden;
+  -webkit-transition: all .3s ease 0s;
+  -o-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+
+.blog-block img {
+  margin-bottom: 10px;
+}
+
+.blog-text {
+  padding: 20px;
+}
+
+.blog-text .author-name {
+  font-weight: 400;
+}
+
+.blog-text .author-name span {
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+
+.blog-block .read-more,
+.blog-block span {
+  color: $primary-color;
+}
+
+
+
+/* =================================
+BLOG PAGE
+===================================*/
+.blog-post {
+  margin-bottom: 50px;
+}
+
+.blog-post img {
+  border-radius: 5px;
+}
+
+.blog-post .post-author i,
+.blog-post .post-info i {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.blog-post .post-author span,
+.blog-post .post-info span {
+  font-size: 14px;
+}
+
+
+.sidebar-widget {
+  margin-bottom: 40px;
+  padding-left: 20px;
+  @include desktop {
+    padding-left: 0;
+  }
+}
+
+.category ul li {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  position: relative;
+  padding-left: 20px;
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 10px;
+}
+
+.category ul li:before {
+  position: absolute;
+  content: "\f105";
+  left: 0px;
+  top: 0px;
+  font-family: "Font Awesome 5 Free";
+  color: $primary-color;
+  font-weight: 900;
+}
+
+.tag a {
+  text-transform: capitalize;
+  padding: 5px 8px;
+  border: 1px solid $border-color;
+  margin-bottom: 5px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.search i {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  margin-right: 35px;
+  margin-top: 15px;
+  color: $primary-color;
+}
+
+.download a {
+  display: block;
+  padding: 12px 20px;
+  border: 1px solid $border-color;
+  margin-bottom: 10px;
+  background: #f2f2f2;
+}
+
+.download a i {
+  margin-right: 15px;
+  color: $primary-color;
+}
+
+/* ==================================
+BLOG SINGLE
+=====================================*/
+
+.quote i {
+  font-size: 50px;
+  margin-right: 10px;
+  position: absolute;
+  left: 0px;
+}
+
+.quote {
+  font-size: 18px;
+  line-height: 32px;
+  color: #222;
+  position: relative;
+  margin: 50px 0px;
+  padding-left: 70px;
+}
+
+.comments img {
+  width: 80px;
+  height: 80px;
+}

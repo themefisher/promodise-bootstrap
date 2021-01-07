@@ -1,0 +1,87 @@
+
+
+/*------------------------------------
+ BANNER AREA
+----------------------------------*/
+
+.banner-area .content-padding {
+    padding: 250px 0px 180px;
+}
+
+
+.content-padding {
+    padding: 180px 0px 80px;
+}
+
+.banner-content {
+    padding-right: 30px;
+}
+
+.banner-content .btn {
+    margin-top: 15px;
+}
+
+
+.banner-content .banner-title {
+    color: $light;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.banner-content .subtitle {
+    color: $light;
+    background:$primary-color;
+    display: inline-block;
+    padding: 3px 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color:$primary-color;
+}
+
+.banner-content p {
+    margin: 20px 0px;
+    color: $border-color;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+
+.banner-content .btn {
+    margin-right: 12px;
+}
+
+.btn-sm {
+    padding: 10px 30px;
+}
+
+
+.banner-1 {
+    background: url("../images/banner/bg-2.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-2 {
+    background: url("../images/banner/slider-3.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-3 {
+    background: url("../images/banner/banner-bg.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+
+.section-heading h2 {
+    margin-bottom: 20px;
+    font-weight: 400;
+}

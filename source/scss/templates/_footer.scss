@@ -1,0 +1,79 @@
+
+/*--------------------------
+ FOOTER
+----------------------*/
+
+#footer {
+    padding-bottom: 60px;
+    position: relative;
+    background: url("../images/bg/2.png") ;
+    border-top: 1px solid $border-color;
+}
+
+.footer-widget ul li {
+    padding: 5px 0px;
+}
+
+.footer-widget p {
+    margin-bottom: 5px;
+}
+
+.footer-widget h4 {
+    margin-bottom: 20px;
+}
+
+.footer-widget h4 span {
+    color: $primary-color;
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.footer-blog li img {
+    width: 70px;
+    height: 70px;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-blog li h5 {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: capitalize;
+}
+
+.footer-blog li a.read-more {
+    font-size: 13px;
+}
+
+.footer-blog li {
+    margin-bottom: 15px;
+}
+
+.footer-copy {
+    letter-spacing: 1px;
+    padding-top: 30px;
+    margin-top: 30px;
+    border-top: 1px solid $border-color;
+}
+
+.footer-text h6 {
+    margin-bottom: 10px;
+}
+
+.footer-text p span {
+    color: $black;
+}
+
+.footer-text p.mail {
+    color: $primary-color;
+}
+
+.bg-main {
+    background: #F4F8FB;
+}
+
+.footer-widget a {
+    color: #999;
+}

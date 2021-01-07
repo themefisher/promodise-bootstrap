@@ -1,0 +1,22 @@
+@@include('header.htm')
+@@include('blocks/navigation.htm')
+@@include('blocks/page-title.htm', {
+"title": "Latest news",
+"description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, perferendis?"
+})
+
+<section class="section blog-wrap ">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        @@include('blocks/blog-posts.htm')
+      </div>
+      <div class="col-lg-4">
+        @@include('blocks/post-sidebar.htm')
+      </div>
+    </div>
+  </div>
+</section>
+
+@@include('blocks/footer.htm')
+@@include('footer.htm')

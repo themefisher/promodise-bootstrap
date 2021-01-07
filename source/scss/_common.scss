@@ -1,0 +1,231 @@
+.no-padding {
+  padding: 0;
+}
+
+.flaticon {
+  display: inline;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.section-padding {
+  padding: 90px 0px;
+}
+
+.section-heading {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto 60px;
+}
+
+.section-title {
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 15px;
+  text-transform: capitalize
+}
+
+.section-title span {
+  color: #635CDB;
+}
+
+.section {
+  padding: 100px 0px;
+}
+
+
+.line {
+  width: 50px;
+  background: #635CDB;
+  height: 1px;
+  margin: 10px auto;
+}
+
+
+
+
+/*---------- BUTTONS ----------*/
+
+.btn {
+  font: 600 10.5px/1;
+  display: inline-block;
+  padding: 15px 45px 15px 45px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  border-radius: 0px;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+.btn:focus,
+.btn:active,
+.btn:active:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.btn-hero,
+.btn-white:hover {
+  color: #fff !important;
+  background: #635CDB;
+}
+
+.btn-hero:focus {
+  color: #fff !important;
+}
+
+.btn-black,
+.btn-hero:hover {
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff !important;
+}
+
+.btn-black:hover {
+  color: #fff;
+  background: #635CDB;
+}
+
+.btn-black:focus {
+  color: #fff;
+}
+
+.btn-white {
+  background-color: rgba(255, 255, 255, .95);
+  color: rgba(0, 0, 0, .85);
+  border-color: rgba(255, 255, 255, .12);
+}
+
+.btn-white:focus {
+  color: #000;
+}
+
+.btn-white:active {
+  color: #fff;
+}
+
+.btn-trans-black {
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, .15);
+  color: rgba(0, 0, 0, .85);
+}
+
+.btn-trans-black:hover {
+  color: rgba(255, 255, 255, 1);
+  background-color: #000;
+}
+
+.btn-trans-white {
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, .15);
+  color: rgba(255, 255, 255, .95);
+}
+
+.btn-trans-white:hover {
+  background-color: rgba(255, 255, 255, .95);
+  color: rgba(0, 0, 0, .85);
+  border-color: rgba(255, 255, 255, .12);
+}
+
+.btn-trans-white:active,
+.btn-trans-white:focus {
+  color: #fff;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, .12);
+}
+
+.btn-rounded {
+  border-radius: 2px;
+}
+
+.btn-circled {
+  border-radius: 40px;
+}
+
+
+.btn-trans-black:hover {
+  background: #635CDB !important;
+}
+
+
+
+/*---------- COLORS ----------*/
+
+/*-- Background Colors --*/
+
+.bg-black {
+  background-color: #000;
+}
+
+.bg-dark {
+  background-color: rgba(0, 0, 0, .96);
+}
+
+.bg-feature {
+  background-color: #635CDB;
+}
+
+.bg-primary {
+  background-color: #0db8ca;
+}
+
+.bg-gray {
+  background-color: #f2f4ec;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+
+.d-table {
+  width: 100%;
+}
+
+
+.d-table-cell {
+  vertical-align: middle;
+}
+
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.brown-overlay {
+  background: #222955;
+  opacity: .97;
+}
+
+.feature-overlay {
+  background: #635CDB;
+  opacity: .97;
+}
+
+.gr-overlay {
+  background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%);
+  opacity: .87;
+}
+
+
+/* ========================
+
+==============================*/
+
+.heading {
+  margin-bottom: 40px;
+}
+
+.heading h3 {
+  margin-bottom: 10px;
+  font-weight: 600;
+}

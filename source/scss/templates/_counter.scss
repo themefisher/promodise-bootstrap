@@ -1,0 +1,45 @@
+
+/*--------------------------------
+ COUNTER SECTION
+-----------------------------*/
+
+.counter {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 700;
+    line-height: 70px;
+    margin: 10px 0px;
+    color: $primary-color;
+}
+
+.counter-stat i {
+    font-size: 40px;
+    color: $light;
+    margin-right: 10px;
+}
+
+.counter-stat h5 {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: $light;
+}
+
+.counter-block span {
+    font-size: 30px;
+}
+
+
+#counter .dark-overlay {
+    background:$black;
+    opacity: 0.95;
+}
+
+#counter {
+    background: url("../images/banner/pattern-3.png") fixed 50% 50%;
+    position: relative;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-top: 87px;
+    padding-bottom: 95px;
+}
+

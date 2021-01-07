@@ -1,0 +1,92 @@
+/*------------------------------------
+  CLIENT PARTNER AREA SECTION
+--------------------------------*/
+
+#clients {
+  padding-top: 75px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.client-img {
+  background: $light;
+}
+
+
+/*------------------------------------
+  TESTIMONIAL AREA SECTION
+---------------------------------*/
+.author-img img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 5px solid #ddd;
+}
+
+.author-info p {
+  margin: 0px;
+  font-size: 14px;
+}
+
+.carousel-indicators {
+  bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.carousel-indicators li {
+  background: #111;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.carousel-indicators li.active {
+  background: $primary-color;
+}
+
+
+.testimonial-content {
+  padding: 0px 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.testimonial-content .author-text {
+  padding-top: 10px;
+}
+
+.testimonial-content .author-info {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.testimonial-content p {
+  font-size: 20px;
+  line-height: 36px;
+  color: #222;
+  margin: 35px 0px;
+  display: block;
+}
+
+.author-text h5 {
+  text-transform: uppercase;
+}
+
+.author-text p {
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 36px;
+  color: $black-lighter;
+  margin: 0px;
+}
+
+.testimonial-content p i {
+  margin: 0px 8px;
+}
+
+
+.carousel-indicators li {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+}
