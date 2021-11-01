@@ -1,3 +1,10 @@
+/**
+ * WEBSITE: https://themefisher.com
+ * TWITTER: https://twitter.com/themefisher
+ * FACEBOOK: https://www.facebook.com/themefisher
+ * GITHUB: https://github.com/themefisher/
+ */
+
 /*
 THEME: Promodise - Startup Business Bootstrap Template
 VERSION: 1.0.0
@@ -195,7 +202,7 @@ h5.subtitle {
   padding: 15px 45px 15px 45px;
   text-transform: uppercase;
   border: 2px solid transparent;
-  transition: all .2s;
+  transition: all 0.2s;
   border-radius: 0px;
   font-weight: 600;
   font-size: 13px;
@@ -335,17 +342,17 @@ h5.subtitle {
 
 .brown-overlay {
   background: #222955;
-  opacity: .97;
+  opacity: 0.97;
 }
 
 .feature-overlay {
   background: #635CDB;
-  opacity: .97;
+  opacity: 0.97;
 }
 
 .gr-overlay {
   background: linear-gradient(135deg, #2f1ce0 0%, #53a0fd 30%, #51eca5 100%);
-  opacity: .87;
+  opacity: 0.87;
 }
 
 /* ========================
@@ -385,7 +392,7 @@ h5.subtitle {
   z-index: 9999;
   width: 100%;
   left: 0;
-  transition: all .5s ease 0s;
+  transition: all 0.5s ease 0s;
   color: #000 !important;
 }
 
@@ -401,7 +408,7 @@ h5.subtitle {
 
 .site-navigation,
 .trans-navigation {
-  transition: all .5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 .navbar-brand {
@@ -462,7 +469,6 @@ h5.subtitle {
   border: 0;
   box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
 }
-
 @media (max-width: 992px) {
   .dropdown-menu {
     text-align: center;
@@ -471,11 +477,9 @@ h5.subtitle {
     margin: 0;
   }
 }
-
 .dropdown-menu li:first-child {
   margin-top: 5px;
 }
-
 .dropdown-menu li:last-child {
   margin-bottom: 5px;
 }
@@ -492,7 +496,7 @@ h5.subtitle {
 .dropleft .dropdown-toggle::before,
 .dropright .dropdown-toggle::after {
   font-weight: bold;
-  font-family: 'Font Awesome 5 Free';
+  font-family: "Font Awesome 5 Free";
   border: 0;
   font-size: 10px;
   vertical-align: 1px;
@@ -509,7 +513,7 @@ h5.subtitle {
 }
 
 .dropdown-item {
-  padding: .6rem 1.5rem .35rem;
+  padding: 0.6rem 1.5rem 0.35rem;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 500;
@@ -533,15 +537,12 @@ ul.dropdown-menu li {
 
 @media (min-width: 992px) {
   .dropdown-menu {
-    transition: all .2s ease-in, visibility 0s linear .2s, -webkit-transform .2s linear;
-    transition: all .2s ease-in, visibility 0s linear .2s, transform .2s linear;
-    transition: all .2s ease-in, visibility 0s linear .2s, transform .2s linear, -webkit-transform .2s linear;
+    transition: all 0.2s ease-in, visibility 0s linear 0.2s, transform 0.2s linear;
     display: block;
     visibility: hidden;
     opacity: 0;
     min-width: 200px;
-    -webkit-transform: translateY(10px);
-            transform: translateY(10px);
+    transform: translateY(10px);
   }
   .dropdown-menu li:first-child {
     margin-top: 5px;
@@ -549,25 +550,24 @@ ul.dropdown-menu li {
   .dropdown-menu li:last-child {
     margin-bottom: 5px;
   }
+
   .dropleft .dropdown-menu,
-  .dropright .dropdown-menu {
+.dropright .dropdown-menu {
     margin-top: -5px;
   }
+
   .dropdown:hover > .dropdown-menu {
     visibility: visible;
-    transition: all .3s ease 0s;
+    transition: all 0.3s ease 0s;
     opacity: 1;
-    -webkit-transform: translateY(0);
-            transform: translateY(0);
+    transform: translateY(0);
   }
 }
-
 @media (max-width: 992px) {
   .navbar-collapse {
     text-align: center;
   }
 }
-
 .navbar-collapse.show {
   overflow-y: auto;
   max-height: calc(100vh - 100px);
@@ -916,7 +916,7 @@ HISTORY MISSION
   text-align: center;
   padding: 45px 25px 30px 25px;
   border: 1px solid transparent;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   border-radius: 5px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -960,7 +960,7 @@ SERVICE PAGE
   top: 0px;
   left: 0px;
   font-weight: 800;
-  opacity: .05;
+  opacity: 0.05;
   margin-top: -15px;
 }
 
@@ -993,7 +993,7 @@ SERVICE PAGE
 
 .pricing-block {
   text-align: center;
-  transition: all .3s 0s ease;
+  transition: all 0.3s 0s ease;
   border-radius: 5px;
   border: 1px solid #eee;
 }
@@ -1011,7 +1011,7 @@ SERVICE PAGE
   font-size: 50px;
   display: inline-block;
   border-radius: 100%;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
   color: #635CDB;
   border: 1px solid #eee;
 }
@@ -1192,28 +1192,28 @@ input[type=email] {
 
 .form-control::-webkit-input-placeholder {
   color: #888;
-  opacity: .9;
+  opacity: 0.9;
   font-size: 13px;
   padding-left: 10px;
 }
 
 .form-control::-moz-placeholder {
   color: #888;
-  opacity: .9;
+  opacity: 0.9;
   font-size: 13px;
   padding-left: 10px;
 }
 
 .form-control:-ms-input-placeholder {
   color: #888;
-  opacity: .9;
+  opacity: 0.9;
   font-size: 13px;
   padding-left: 10px;
 }
 
 .form-control:-moz-placeholder {
   color: #888;
-  opacity: .9;
+  opacity: 0.9;
   font-size: 13px;
   padding-left: 10px;
 }
@@ -1236,7 +1236,7 @@ input[type=email] {
 
 .blog-block {
   overflow: hidden;
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .blog-block img {
@@ -1287,7 +1287,6 @@ BLOG PAGE
   margin-bottom: 40px;
   padding-left: 20px;
 }
-
 @media (max-width: 992px) {
   .sidebar-widget {
     padding-left: 0;
@@ -1461,29 +1460,35 @@ BLOG SINGLE
     background: #fff;
     border-radius: 0px;
   }
+
   .navbar-toggler-icon {
     height: auto;
     padding: 5px 0px;
     width: 1rem;
   }
+
   .trans-navigation {
     background: #232323;
   }
+
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
+
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
   .section-heading {
     width: 100%;
   }
+
   /*----------------
      INTRO
     ----------------*/
   #intro {
     padding-bottom: 90px;
   }
+
   /*----------------
      ABOUT
     ----------------*/
@@ -1492,17 +1497,21 @@ BLOG SINGLE
     width: 100%;
     margin-bottom: 10px;
   }
+
   .about-bg-img {
     width: 35%;
     height: 100%;
     max-height: 600px;
   }
+
   .about-content {
     margin-top: 60px;
   }
+
   #about {
     padding-bottom: 40px;
   }
+
   /*--------------
      COUNTER
     ----------------*/
@@ -1510,6 +1519,7 @@ BLOG SINGLE
     margin-bottom: 30px;
     text-align: center;
   }
+
   /*--------------
      BLOG
     ----------------*/
@@ -1517,15 +1527,19 @@ BLOG SINGLE
     padding: 0px;
     margin-top: 10px;
   }
+
   .blog-tex h5 {
     font-size: 15px;
   }
+
   .blog-text p {
     font-size: 14px;
   }
+
   .pricing-block {
     margin-bottom: 30px;
   }
+
   /*--------------
      FOOTER
     ----------------*/
@@ -1533,7 +1547,6 @@ BLOG SINGLE
     margin-bottom: 30px;
   }
 }
-
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
   /*---------------
@@ -1543,44 +1556,53 @@ BLOG SINGLE
     background: #fff;
     border-radius: 0px;
   }
+
   .navbar-toggler-icon {
     height: auto;
     padding: 5px 0px;
     width: 1rem;
   }
+
   .trans-navigation {
     background: #232323;
   }
+
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
+
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
   .section-heading {
     width: 100%;
   }
+
   /*----------------
      INTRO
     ----------------*/
   #intro {
     padding-bottom: 90px;
   }
+
   /*----------------
      ABOUT
     ----------------*/
   .about-content {
     margin-top: 60px;
   }
+
   #about {
     padding-bottom: 40px;
   }
+
   /*-------------------
      TESTIMONIAL
     -------------------*/
   .testimonial-content {
     padding: 10px;
   }
+
   /*--------------
      COUNTER
     ----------------*/
@@ -1588,49 +1610,58 @@ BLOG SINGLE
     margin-bottom: 30px;
     text-align: center;
   }
+
   /*--------------
      BLOG
     ----------------*/
   .blog-block {
     margin-bottom: 30px;
   }
+
   .blog-text {
     padding: 0px;
     margin-top: 10px;
   }
+
   .blog-block:hover {
     box-shadow: none;
   }
+
   .blog-text h5 {
     font-size: 16px;
   }
+
   .blog-text p {
     font-size: 14px;
   }
+
   .intro-box {
     margin-top: 0px;
     margin-bottom: 40px;
   }
+
   /*--------------
      CLIENT
     --------------*/
   .client-img {
     text-align: center;
   }
+
   /*--------------
      FOOTER
     ----------------*/
   .footer-widget {
     margin-bottom: 30px;
   }
+
   .pricing-block {
     margin-bottom: 30px;
   }
+
   .img-block img {
     width: 130px;
   }
 }
-
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
   /*---------------
@@ -1640,52 +1671,63 @@ BLOG SINGLE
     background: #fff;
     border-radius: 0px;
   }
+
   .navbar-toggler-icon {
     height: auto;
     padding: 5px 0px;
     width: 1rem;
   }
+
   .trans-navigation {
     background: #232323;
     padding: 20px 15px;
   }
+
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
+
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
   #intro .section-heading,
-  .section-heading {
+.section-heading {
     width: 100%;
   }
+
   #intro .section-heading p {
     font-size: 16px;
     line-height: 28px;
   }
+
   .section-title {
     font-size: 26px;
     line-height: 36px;
   }
+
   h1 {
     font-size: 32px;
     line-height: 36px;
   }
+
   /*--------------------
      BANNER
     -----------------*/
   .banner-content .banner-title {
     line-height: 37px;
   }
+
   .banner-content p {
     font-size: 16px;
   }
+
   /*----------------
      INTRO
     ----------------*/
   #intro {
     padding-bottom: 90px;
   }
+
   /*----------------
      ABOUT
     ----------------*/
@@ -1694,29 +1736,36 @@ BLOG SINGLE
     width: 100%;
     margin-bottom: 10px;
   }
+
   .about-bg-img {
     width: 35%;
     height: 100%;
     max-height: 600px;
   }
+
   .about-content {
     margin-top: 60px;
   }
+
   #about {
     padding-bottom: 40px;
   }
+
   .img-block img {
     width: 130px;
   }
+
   .service-block {
     margin-bottom: 20px;
   }
+
   /*-------------------
      TESTIMONIAL
     -------------------*/
   .testimonial-content {
     padding: 10px;
   }
+
   /*--------------
      COUNTER
     ----------------*/
@@ -1724,38 +1773,44 @@ BLOG SINGLE
     margin-bottom: 30px;
     text-align: center;
   }
+
   /*--------------
      BLOG
     ----------------*/
   .blog-block {
     margin-bottom: 30px;
   }
+
   .blog-text {
     padding: 10px;
     margin-top: 10px;
     text-align: center;
   }
+
   .blog-tex h5 {
     font-size: 15px;
   }
+
   .blog-text p {
     font-size: 14px;
   }
+
   /*--------------
      CLIENT
     --------------*/
   .client-img {
     text-align: center;
   }
+
   /*--------------
      FOOTER
     ----------------*/
   .footer-widget {
     margin-bottom: 30px;
   }
+
   .pricing-block {
     margin-bottom: 30px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
