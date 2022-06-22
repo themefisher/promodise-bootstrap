@@ -5,21 +5,7 @@
  * GITHUB: https://github.com/themefisher/
  */
 
-/*
-THEME: Promodise - Startup Business Bootstrap Template
-VERSION: 1.0.0
-AUTHOR: Themefisher
-
-HOMEPAGE: https://themefisher.com/products/promodise-startup-business-template/
-DEMO: https://demo.themefisher.com/promodise/
-GITHUB: https://github.com/themefisher/Promodise-Startup-Business-Bootstrap-Template
-
-WEBSITE: https://themefisher.com
-TWITTER: https://twitter.com/themefisher
-FACEBOOK: https://www.facebook.com/themefisher
-*/
-/*=== MEDIA QUERY ===*/
-/*
+/*=== MEDIA QUERY ===*/ /*
 * ----------------------------------------------------------------------------------------
 * 01.GLOBAL CSS STYLE
 * 02.PRELOADER & BOUNCE CCS STYLE
@@ -228,7 +214,7 @@ h5.subtitle {
 
 .btn-black,
 .btn-hero:hover {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: #fff !important;
 }
 
@@ -262,7 +248,7 @@ h5.subtitle {
 }
 
 .btn-trans-black:hover {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: #000;
 }
 
@@ -550,12 +536,10 @@ ul.dropdown-menu li {
   .dropdown-menu li:last-child {
     margin-bottom: 5px;
   }
-
   .dropleft .dropdown-menu,
 .dropright .dropdown-menu {
     margin-top: -5px;
   }
-
   .dropdown:hover > .dropdown-menu {
     visibility: visible;
     transition: all 0.3s ease 0s;
@@ -1460,35 +1444,29 @@ BLOG SINGLE
     background: #fff;
     border-radius: 0px;
   }
-
   .navbar-toggler-icon {
     height: auto;
     padding: 5px 0px;
     width: 1rem;
   }
-
   .trans-navigation {
     background: #232323;
   }
-
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
-
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
   .section-heading {
     width: 100%;
   }
-
   /*----------------
      INTRO
     ----------------*/
   #intro {
     padding-bottom: 90px;
   }
-
   /*----------------
      ABOUT
     ----------------*/
@@ -1497,21 +1475,17 @@ BLOG SINGLE
     width: 100%;
     margin-bottom: 10px;
   }
-
   .about-bg-img {
     width: 35%;
     height: 100%;
     max-height: 600px;
   }
-
   .about-content {
     margin-top: 60px;
   }
-
   #about {
     padding-bottom: 40px;
   }
-
   /*--------------
      COUNTER
     ----------------*/
@@ -1519,7 +1493,6 @@ BLOG SINGLE
     margin-bottom: 30px;
     text-align: center;
   }
-
   /*--------------
      BLOG
     ----------------*/
@@ -1527,19 +1500,15 @@ BLOG SINGLE
     padding: 0px;
     margin-top: 10px;
   }
-
   .blog-tex h5 {
     font-size: 15px;
   }
-
   .blog-text p {
     font-size: 14px;
   }
-
   .pricing-block {
     margin-bottom: 30px;
   }
-
   /*--------------
      FOOTER
     ----------------*/
@@ -1556,53 +1525,44 @@ BLOG SINGLE
     background: #fff;
     border-radius: 0px;
   }
-
   .navbar-toggler-icon {
     height: auto;
     padding: 5px 0px;
     width: 1rem;
   }
-
   .trans-navigation {
     background: #232323;
   }
-
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
-
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
   .section-heading {
     width: 100%;
   }
-
   /*----------------
      INTRO
     ----------------*/
   #intro {
     padding-bottom: 90px;
   }
-
   /*----------------
      ABOUT
     ----------------*/
   .about-content {
     margin-top: 60px;
   }
-
   #about {
     padding-bottom: 40px;
   }
-
   /*-------------------
      TESTIMONIAL
     -------------------*/
   .testimonial-content {
     padding: 10px;
   }
-
   /*--------------
      COUNTER
     ----------------*/
@@ -1610,54 +1570,44 @@ BLOG SINGLE
     margin-bottom: 30px;
     text-align: center;
   }
-
   /*--------------
      BLOG
     ----------------*/
   .blog-block {
     margin-bottom: 30px;
   }
-
   .blog-text {
     padding: 0px;
     margin-top: 10px;
   }
-
   .blog-block:hover {
     box-shadow: none;
   }
-
   .blog-text h5 {
     font-size: 16px;
   }
-
   .blog-text p {
     font-size: 14px;
   }
-
   .intro-box {
     margin-top: 0px;
     margin-bottom: 40px;
   }
-
   /*--------------
      CLIENT
     --------------*/
   .client-img {
     text-align: center;
   }
-
   /*--------------
      FOOTER
     ----------------*/
   .footer-widget {
     margin-bottom: 30px;
   }
-
   .pricing-block {
     margin-bottom: 30px;
   }
-
   .img-block img {
     width: 130px;
   }
@@ -1671,22 +1621,18 @@ BLOG SINGLE
     background: #fff;
     border-radius: 0px;
   }
-
   .navbar-toggler-icon {
     height: auto;
     padding: 5px 0px;
     width: 1rem;
   }
-
   .trans-navigation {
     background: #232323;
     padding: 20px 15px;
   }
-
   .navbar-expand-lg.trans-navigation .navbar-nav .nav-link {
     margin-bottom: 10px;
   }
-
   /*----------------------
      SECTION HEAINDG
     -----------------------*/
@@ -1694,40 +1640,33 @@ BLOG SINGLE
 .section-heading {
     width: 100%;
   }
-
   #intro .section-heading p {
     font-size: 16px;
     line-height: 28px;
   }
-
   .section-title {
     font-size: 26px;
     line-height: 36px;
   }
-
   h1 {
     font-size: 32px;
     line-height: 36px;
   }
-
   /*--------------------
      BANNER
     -----------------*/
   .banner-content .banner-title {
     line-height: 37px;
   }
-
   .banner-content p {
     font-size: 16px;
   }
-
   /*----------------
      INTRO
     ----------------*/
   #intro {
     padding-bottom: 90px;
   }
-
   /*----------------
      ABOUT
     ----------------*/
@@ -1736,36 +1675,29 @@ BLOG SINGLE
     width: 100%;
     margin-bottom: 10px;
   }
-
   .about-bg-img {
     width: 35%;
     height: 100%;
     max-height: 600px;
   }
-
   .about-content {
     margin-top: 60px;
   }
-
   #about {
     padding-bottom: 40px;
   }
-
   .img-block img {
     width: 130px;
   }
-
   .service-block {
     margin-bottom: 20px;
   }
-
   /*-------------------
      TESTIMONIAL
     -------------------*/
   .testimonial-content {
     padding: 10px;
   }
-
   /*--------------
      COUNTER
     ----------------*/
@@ -1773,42 +1705,35 @@ BLOG SINGLE
     margin-bottom: 30px;
     text-align: center;
   }
-
   /*--------------
      BLOG
     ----------------*/
   .blog-block {
     margin-bottom: 30px;
   }
-
   .blog-text {
     padding: 10px;
     margin-top: 10px;
     text-align: center;
   }
-
   .blog-tex h5 {
     font-size: 15px;
   }
-
   .blog-text p {
     font-size: 14px;
   }
-
   /*--------------
      CLIENT
     --------------*/
   .client-img {
     text-align: center;
   }
-
   /*--------------
      FOOTER
     ----------------*/
   .footer-widget {
     margin-bottom: 30px;
   }
-
   .pricing-block {
     margin-bottom: 30px;
   }
